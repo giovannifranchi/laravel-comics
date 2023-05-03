@@ -3,4 +3,16 @@ header {
         color: #fff;
         background-color: $primary;
     }
+    .header-bottom {
+        ul {
+            height: 6.25rem;
+            li{
+                color: $tertiary;
+                &.active {
+                    border-bottom: 3px solid $primary;
+                    color: $primary;
+                }
+            }
+        }
+    }
 }

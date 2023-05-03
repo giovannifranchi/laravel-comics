@@ -23,10 +23,43 @@
     <!-- Header Bottom -->
     <div class="header-bottom">
         <div class="container">
-            <nav>
+            <nav class="d-flex gap-5 align-items-center">
                 <a class="navbar-brand" href="#">
-                    <img src="../../img/dc-logo.png" alt="Bootstrap">
-                  </a>
+                    <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="dc-logo" width="75" height="75">
+                </a>
+                <ul class="d-flex list-unstyled align-items-center m-0">
+                    <li class="h-100 d-flex align-items-center px-3 active">
+                        <a href="#" class="text-reset">CHARACTERS</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">COMICS</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">MOVIES</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">TV</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">GAMES</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">COLLECTIBLES</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">VIDEOS</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">FANS</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">NEWS</a>
+                    </li>
+                    <li class="h-100 d-flex align-items-center px-3">
+                        <a href="#" class="text-reset">SHOP</a>
+                    </li>
+                </ul>
+                {{-- add searchbar --}}
             </nav>
         </div>
     </div>
