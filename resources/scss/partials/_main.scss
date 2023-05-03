@@ -9,6 +9,10 @@ main {
                 width: 100%;
                 aspect-ratio: 1/1.5;
             }
+            color: #fff;
+            &:hover {
+                color: $primary;
+            }
         }
     }
     
