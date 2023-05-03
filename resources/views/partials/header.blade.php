@@ -28,34 +28,34 @@
                     <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="dc-logo" width="75" height="75">
                 </a>
                 <ul class="d-flex list-unstyled align-items-center m-0">
-                    <li class="h-100 d-flex align-items-center px-3 active">
-                        <a href="#" class="text-reset">CHARACTERS</a>
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'characters' ? 'active' : ''}}">
+                        <a href="{{route('characters')}}" class="text-reset">CHARACTERS</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
-                        <a href="#" class="text-reset">COMICS</a>
+                    <li class="h-100 d-flex align-items-center px-3 {{Str::startsWith(Route::currentRouteName(), 'comic') ? 'active' : ''}}">
+                        <a href="{{route('comics')}}" class="text-reset">COMICS</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
-                        <a href="#" class="text-reset">MOVIES</a>
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'movies' ? 'active' : ''}}">
+                        <a href="/movies" class="text-reset">MOVIES</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
-                        <a href="#" class="text-reset">TV</a>
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'tv' ? 'active' : ''}}">
+                        <a href="/tv" class="text-reset">TV</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'games' ? 'active' : ''}}">
                         <a href="#" class="text-reset">GAMES</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'collectibles' ? 'active' : ''}}">
                         <a href="#" class="text-reset">COLLECTIBLES</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'videos' ? 'active' : ''}}">
                         <a href="#" class="text-reset">VIDEOS</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'fans' ? 'active' : ''}}">
                         <a href="#" class="text-reset">FANS</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'news' ? 'active' : ''}}">
                         <a href="#" class="text-reset">NEWS</a>
                     </li>
-                    <li class="h-100 d-flex align-items-center px-3">
+                    <li class="h-100 d-flex align-items-center px-3 {{Route::currentRouteName() === 'shop' ? 'active' : ''}}">
                         <a href="#" class="text-reset">SHOP</a>
                     </li>
                 </ul>
