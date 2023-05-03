@@ -1,6 +1,6 @@
 <div class="action">
     <div class="container">
-        <ul class="d-flex gap-5 justify-content-center py-3">
+        <ul class="d-flex gap-5 justify-content-center py-3 mb-0">
             <li class="d-flex align-items-center gap-2 py-3">
                 <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="comics">
                 <h6>DIGITAL COMICS</h6>

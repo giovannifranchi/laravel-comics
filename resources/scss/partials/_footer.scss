@@ -1,0 +1,16 @@
+footer {
+    .footer-top-wrapper {
+        height: 300px;
+        background-image: url('../img/footer-bg.jpg');
+        .container{
+            height: 100%;
+            .footer-top {
+                height: 100%;
+                background-image: url('../img/dc-logo-bg.png');
+                background-position: right;
+                background-repeat: no-repeat;
+                
+            }
+        }
+    }
+}
