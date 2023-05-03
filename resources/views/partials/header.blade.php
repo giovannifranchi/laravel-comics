@@ -1,4 +1,5 @@
 <header>
+    <!--Header Top -->
     <div class="header-top">
         <div class="container">
             <div class="d-flex justify-content-end gap-5 align-items-center">
@@ -14,8 +15,20 @@
                       <li>three option</li>
                     </ul>
                 </div>
-                <!-- Dropdown -->
+                <!-- /Dropdown -->
             </div>
         </div>
     </div>
+    <!-- /Header Top -->
+    <!-- Header Bottom -->
+    <div class="header-bottom">
+        <div class="container">
+            <nav>
+                <a class="navbar-brand" href="#">
+                    <img src="../../img/dc-logo.png" alt="Bootstrap">
+                  </a>
+            </nav>
+        </div>
+    </div>
+    <!-- /Header Bottom -->
 </header>
