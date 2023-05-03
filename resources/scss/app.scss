@@ -1,7 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 @import './partials/variables';
 @import './partials/typo';
+@import './partials/jumbo.scss';
 @import './partials/header';
+@import './partials/current_series.scss';
+@import './partials/main';
 
 a {
     text-decoration: none;

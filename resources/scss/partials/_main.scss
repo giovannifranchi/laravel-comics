@@ -1,0 +1,15 @@
+main {
+    background-color: $secondary;
+    color: #fff;
+
+    .comic-card {
+        background-color: transparent;
+        a {
+            .img-card {
+                width: 100%;
+                aspect-ratio: 1/1.5;
+            }
+        }
+    }
+    
+}

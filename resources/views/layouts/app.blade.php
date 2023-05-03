@@ -9,7 +9,11 @@
     <body>
         @include('partials.header')
         <main>
-            @yield('main')
+            @include('partials.jumbotron')
+            <div class="container">
+                @include('partials.current_title')
+                @yield('main')
+            </div>
         </main>
         @include('partials.footer')
     </body>
