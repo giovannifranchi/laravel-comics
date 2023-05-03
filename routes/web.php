@@ -30,7 +30,7 @@ Route::get('/detail/{index}', function($index){
 
     $comics = $comics_total[$index];
     return view('comic', compact('comics'));
-})->name('comic');
+})->name('comic')->where('index', '[0-9]+');
 
 
 
