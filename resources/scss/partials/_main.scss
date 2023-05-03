@@ -2,6 +2,13 @@ main {
     background-color: $secondary;
     color: #fff;
 
+    button {
+        background-color: $primary;
+        &:hover {
+            background-color: darken($color: $primary, $amount: 10%);
+        }
+    }
+
     .comic-card {
         background-color: transparent;
         a {
