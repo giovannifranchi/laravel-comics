@@ -94,9 +94,29 @@
                         <h5 class="text-white">comics</h5>
                     </li>
                 </ul>
-                
-
             </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <button>SIGNUP NOW</button>
+            <ul class="list-unstyled d-flex gap-3 mb-0 py-4 align-items-center">
+                <li>
+                    <h5 class="mb-0">FOLLOW US</h5>
+                </li>
+                <li>
+                    <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook">
+                </li>
+                <li>
+                    <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook">
+                </li>
+                <li>
+                    <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook">
+                </li>
+                <li>
+                    <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook">
+                </li>
+            </ul>
         </div>
     </div>
 </footer>

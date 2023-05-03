@@ -13,4 +13,26 @@ footer {
             }
         }
     }
+    .footer-bottom {
+        background-color: $tertiary;
+        .container {
+            button {
+                border: 1px solid $primary;
+                background-color: transparent;
+                color: #fff;
+                padding: 5px 10px;
+                font-family: inherit;
+                &:hover {
+                    color: darken($color: #fff, $amount: 20%);
+                }
+            }
+            ul {
+                h5 {
+                    color: $primary;
+                    font-weight: 600;
+                    font-family: inherit;
+                }
+            }
+        }
+    }
 }
