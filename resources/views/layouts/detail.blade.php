@@ -16,6 +16,7 @@
             <div class="container">
                 @yield('info')
             </div>
+            @yield('detail')
         </main>
         @include('partials.footer')
     </body>

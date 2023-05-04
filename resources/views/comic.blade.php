@@ -17,5 +17,10 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('detail')
+
+@include('partials.detail_info')
     
 @endsection
